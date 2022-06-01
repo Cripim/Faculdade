@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,300;1,500&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Poppins', sans-serif;
+}
+body{
+  background-image: linear-gradient(to top, #000102 0%, #222324 100%);
+}
+section {
+  padding: 100px;
+}
+
+.logo {
+  width: 210px;
+
+}
+
+section h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+section p {
+  line-height: 1.8em;
+  font-size: 25px;
+  color: #fff;
+}
+
+section li {
+  line-height: 1.8em;
+  font-size: 20px;
+  color: #fff;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+
+.azul {
+  color: #243A73
+}
+
+.vermelho {
+  color: #AF0404 ;
+}
+
+.verde {
+  color: #36AE7C ;
+}
+
+em {
+  color: #36AE7C;
+}
+
+@media (min-width:412px) and (max-width: 915px) {
+
+ section img h2 p { 
+   padding: 20px;
+   min-width: 280px;
+   max-width: 800px;
+  margin: auto;
+  font-size: 16px;
+ }
+
+ }
