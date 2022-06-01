@@ -6,12 +6,12 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --black: #333;
+  --black:  #36AE7C;
   --white: #fff;
 }
 .dark
 {
-  --black:  #36AE7C;;
+  --black:  #36AE7C;
 --white: #333;
 }
 
