@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,300;1,500&display=swap");
+
+* {
+  font-family: "Poppins";
+}
+
+body {
+  padding-top: 75px;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(219, 11, 192, 0.05),
+    0 4px 8px 0 rgba(0, 0, 0, 0.05);
+}
+
+#home-quote {
+  background: url("../img/bg-quote.jpg") center center;
+  background-size: cover;
+}
+
+@media (max-width: 767px) {
+  #home-quote .display-4 {
+    font-size: 2.5rem;
+  }
+  body {
+    padding-top: 0px;
+  }
+  .fixed-top {
+    position: relative;
+  }
+}
+
+.btn btn-outline-primary ml-md-2 {
+  background: #06377b;
+}
+
+.color {
+  color: #06377b;
+}
+
+.text-primary {
+  color: #06377b !important;
+}
+
+.bg-dark {
+  background-color: #000000 !important;
+}
+h3 {
+  color: #06377b !important;
+}
+.lead a {
+  color: #06377b !important;
+}
+
+.btn-outline-primary {
+  color: #06377b;
+
+  border-color: #06377b;
+}
+.btn {
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: #06377b;
+  color: white;
+  border-color: #06377b;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #06377b;
+  border-color: #06377b;
+}
+
+.decora {
+  text-decoration: none;
+  color: #fff;
+}
+
+p {
+  letter-spacing: 1.3px;
+}
