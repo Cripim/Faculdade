@@ -113,8 +113,8 @@ header .logo {
   z-index: 3;
   font-size: 12vw;
   
-  color: #c55c1bbd;
-  text-shadow: 020px 30px rgba(0, 0, 0, 0.2);
+  color: #c55c1bd0;
+  text-shadow: 020px 30px rgba(0, 0, 0, 0.829);
 }
 
 .navigation {
