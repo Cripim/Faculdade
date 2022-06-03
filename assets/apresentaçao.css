@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,300;1,500&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-body{
+body {
   background-image: linear-gradient(to top, #000102 0%, #222324 100%);
 }
 section {
@@ -15,7 +15,6 @@ section {
 
 .logo {
   width: 210px;
-
 }
 
 section h2 {
@@ -46,35 +45,71 @@ section li {
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
 
-
-
 .azul {
-  color: #243A73
+  color: #243a73;
 }
 
 .vermelho {
-  color: #AF0404 ;
+  color: #af0404;
 }
 
 .verde {
-  color: #36AE7C ;
+  color: #36ae7c;
 }
 
 em {
-  color: #36AE7C;
+  color: #36ae7c;
 }
 
-@media (min-width:412px) and (max-width: 915px) {
+@media (min-width: 412px) and (max-width: 915px) {
+  section img h2 p {
+    padding: 20px;
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    font-size: 16px;
+  }
+}
+.botao {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #333;
+  font-weight: 800;
+}
+button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #06377b;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
 
- section img h2 p { 
-   padding: 20px;
-   min-width: 280px;
-   max-width: 800px;
-  margin: auto;
-  font-size: 16px;
- }
+button:hover {
+  background-color: #06377b;
 
- }
+  color: #fff;
+  transform: translateY(-7px);
+}
+a {
+  color: #fff;
+}
+
+button:active {
+  transform: translateY(-1px);
+}

@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,300;1,500&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-body{
+body {
   background: #333;
 }
 
-.logo{
+.logo {
   width: 210px;
 }
 
@@ -47,7 +47,7 @@ body{
   padding: 0;
   font-size: 4.5em;
   text-transform: uppercase;
-  color: #36AE7C ;
+  color: #06377b;
   transition: all 0.5s;
   cursor: pointer;
 }
@@ -58,19 +58,19 @@ body{
   font-size: 4.5em;
   text-transform: uppercase;
   color: #fff;
-  -webkit-transform: scale(1.0);
-  transform: scale(1.0);
-  background: #36AE7C;
-  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  background: #06377b;
+  box-shadow: 0px 15px 20px rgba(12, 81, 230, 0.4);
   margin: 5px;
   padding: 5px;
   border-radius: 20px;
 }
 
-.banner .content p{
+.banner .content p {
   font-size: 1.5em;
- 
-  color:#fff;
+
+  color: #fff;
 }
 
 section {
@@ -93,36 +93,35 @@ section p {
 }
 
 .verde {
-  color: #36AE7C ;
+  color: #06377b;
 }
 
 h2 {
-  color: #36AE7C ;
+  color: #06377b;
 }
 
 /* From uiverse.io */
 
-.botao{
+.botao {
   display: flex;
- justify-content: center;
- margin: 10px;
- padding: 10px;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
 }
-a{
+a {
   text-decoration: none;
   font-size: 1.5em;
   color: #333;
   font-weight: 800;
 }
-button  {
- 
+button {
   padding: 1.3em 3em;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
   font-weight: 500;
   color: #000;
-  background-color: #fff;
+  background-color: #06377b;
   border: none;
   border-radius: 45px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -132,13 +131,15 @@ button  {
 }
 
 button:hover {
-  background-color: #23c483;
-  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  background-color: #06377b;
+
   color: #fff;
   transform: translateY(-7px);
+}
+a {
+  color: #fff;
 }
 
 button:active {
   transform: translateY(-1px);
 }
-

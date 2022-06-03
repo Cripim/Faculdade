@@ -6,13 +6,12 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --black:  #36AE7C;
+  --black: #06377b;
   --white: #fff;
 }
-.dark
-{
-  --black:  #36AE7C;
---white: #333;
+.dark {
+  --black: #06377b;
+  --white: #333;
 }
 
 header {
@@ -27,7 +26,7 @@ header {
 
 header .logo {
   width: 210px;
- 
+
   position: relative;
   display: inline-flex;
   color: var(-- black);
@@ -102,18 +101,17 @@ header .logo {
   mix-blend-mode: screen;
 }
 
-.dark .mask
-{
- filter:invert(1);
- mix-blend-mode:multiply;
+.dark .mask {
+  filter: invert(1);
+  mix-blend-mode: multiply;
 }
 
 .main h2 {
   position: relative;
   z-index: 3;
   font-size: 12vw;
-  
-  color: #c55c1bd0;
+
+  color: #06377bc0;
   text-shadow: 020px 30px rgba(0, 0, 0, 0.829);
 }
 
@@ -155,22 +153,20 @@ header .logo {
   color: var(--white);
 }
 
-.copyrightText
-{
- position:absolute;
- Left:100px;
- bottom:40px;
- z-index:4;
- font-weight:500;
- font-size:1.2em;
- color:var(-- black);
- position:absolute;
- right:100px;
- bottom:40px;
- z-index:4;
+.copyrightText {
+  position: absolute;
+  left: 100px;
+  bottom: 40px;
+  z-index: 4;
+  font-weight: 500;
+  font-size: 1.2em;
+  color: var(-- black);
+  position: absolute;
+  right: 100px;
+  bottom: 40px;
+  z-index: 4;
 }
-.sci
-{
+.sci {
   position: absolute;
   right: 100px;
   bottom: 40px;
@@ -181,20 +177,17 @@ header .logo {
 }
 
 .sci li a {
-  text-decoration:none;
-  color:var(-- black);
+  text-decoration: none;
+  color: var(-- black);
   font-size: 1.75em;
 }
 
-@media (max-width: 768px)
-{
+@media (max-width: 768px) {
   header {
     padding: 20px;
   }
   .copyrightText {
-    
     left: 20px;
     bottom: 30px;
-
   }
 }
